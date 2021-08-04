@@ -187,9 +187,20 @@
         align-items: center;
     }
 
+    .networks a {
+        padding: 10px 200px;
+    }
+
     .nav {
         justify-content: center;
     }
+
+    
+    #work {
+        display: block;
+        margin-top: 40px;
+    }
+
 
 }
 
@@ -204,6 +215,15 @@
 
     .nav {
         justify-content: center;
+    }
+
+    #work {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .networks a {
+        padding: 10px 60px;
     }
 
 }
