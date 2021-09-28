@@ -1,0 +1,150 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background-color: #000;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto ;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.text-container .name {
+    color: #3C1642;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.img {
+    width: 15rem;
+}
+
+.main-container {
+    width: 100%;
+    background-color: #3C1642;
+    text-align: center;
+}
+
+.main h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+.main-text {
+    background-color: #000;
+    text-align: center;
+}
+
+.main-text p {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 2rem;
+    color: #fff;
+}
+
+.skills-container {
+    width: 100%;
+    padding: 0;
+    background-color: #3C1642;
+}
+
+.skills h2 {
+    color: #fff;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.skills-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #000;
+}
+
+.skills-img {
+    width: 7rem;
+    margin: 1rem;
+}
+
+.works {
+    width: 100%;
+    background-color: #3C1642;
+}
+
+.work-text h2 {
+    color: #fff;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.works-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    align-items: center;
+}
+
+.works-img {
+    display: flex;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 2rem ;
+    border: 1px solid #fff;
+}
+
+.works-img p {
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    background-color: #3C1642;
+}
+
+.text-contact h2 {
+    color: #fff;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #000;
+}
+
+.contact-container div {
+    padding: 3rem;
+}
+
+.contact-container div i {
+    color: #fff;
+    font-size: 2rem;
+}
